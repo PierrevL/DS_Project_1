@@ -7,7 +7,7 @@ from random import randint
 words = ['baum', 'stuhl', 'tisch', 'lampe', 'nuss'] # Worte zum raten definieren
 selectedWordNumber = randint(0, len(words) -1)      # randem int
 selectedWord = ' '                                  # var anlegen für string
-selectedWord = words[selectedWordNumber]            # gesuchtes wort als string speichen
+selectedWord = words[selectedWordNumber]            # gesuchtes wort als string
 #print(f'selectedWord: , {selectedWord}')
 
 wordToFind = []                                     #feld anlegen
